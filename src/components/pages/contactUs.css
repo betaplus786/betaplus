@@ -1,0 +1,204 @@
+.headImg {
+    background-image: url(../../resources/img/city.jpg);
+    height: 450px;
+}
+
+.mapArea {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+}
+.adress {
+    width: 50%;
+    text-align: left;
+    color: #333;
+}
+.adress h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    display: flex;
+}
+.adress h3 {
+    font-size: 40px;
+}
+.adress p {
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 25px;
+    color: #524f61;
+}
+.imp {
+    display: flex;
+    padding-right: 5px;
+    color: #2ba6dc;
+}
+.marketsContainer {
+    display: flex;
+    width: 50%;
+    margin-left: 19%;
+    margin-bottom: 100px;
+}
+.markets {
+    margin-right: 15%;
+    border-left: 1px solid #727175;
+    padding-left: 40px;
+    width: 350px;
+}
+.markets h2 {
+    display: flex;
+    font-size: 35px;
+}
+.markets p {
+    font-size: 20px;
+}
+
+/* 123456789 */
+.message {
+    width: 80%;
+    margin-bottom: 100px;
+    padding-left: 20%;
+}
+.message h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+     width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .email {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.name, .phone {
+    height: 60px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 50%;
+    flex-direction: row;
+  }
+  .phone {
+    margin-left: 5px;
+  }
+  .content {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .form-row button {
+    background-color: #2ba6dc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .form-row button:hover {
+    background-color: white;
+    color: #2ba6dc;
+    border: 1px solid #2ba6dc;
+    overflow: hidden;
+  }
+  
+  /* Mobile */
+  
+  @media only screen and (max-width: 960px) {
+    .mapArea {
+        display: block;
+    }
+    iframe {
+        width: 300px;
+        height: 150px;
+        margin-top: -80%;
+        margin-bottom: 55%;
+        margin-left: -10%;
+    }
+    .adress {
+        height: 250px;
+        margin-left: -20%;
+        margin-top: 75%;
+        padding-top: 20px;
+        margin-bottom:-80%;
+        text-align: center;
+        width: 350px;
+    }
+    .adress h2 {
+        margin-left: 25%;
+        margin-bottom: 10px;
+        font-size: 25px;
+        display: flex;
+    }
+    .adress h3 {
+        visibility: hidden;
+        margin-top: -65px;
+    }
+    .adress p {
+        margin-bottom: 0px;
+        width: 100%;
+        font-size: 15px;
+        color: #524f61;
+    }
+    .imp {
+        display: flex;
+        padding-right: 5px;
+        color: #2ba6dc;
+    }
+    .marketsContainer {
+        display: block;
+        width: 50%;
+        margin-left: 19%;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .markets {
+        margin-right: 15%;
+        border-left: 0px solid #727175;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .markets h2 {
+        display: flex;
+        font-size: 25px;
+    }
+    .markets p {
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .message {
+        width: 100%;
+        margin-top: -80px;
+        margin-bottom: 100px;
+        padding-left: 5%;
+    }
+    .message h1 {
+        font-size: 30px;
+    }
+    .form-row {
+    display: content;
+}
+.name, .email, .phone, .content {
+    width: 100%;
+    margin-bottom: 5px;
+    }
+    .phone {
+        margin-left: 0;
+    }
+}

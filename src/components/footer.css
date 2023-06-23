@@ -1,0 +1,95 @@
+.footer {
+    background-image: url('../resources/img/footerbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    padding: 5% 10%;
+}
+.contact {
+    width: 30%;
+}
+.footerLogo {
+    width: 200px;
+}
+.contactInfo {
+    color: #fff;
+}
+.contactInfo h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactInfo h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.contactInfo h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+}
+.smlogo {
+    width: 40px;
+} 
+.footerLinks {
+    width: 60%;
+    padding-left: 10%;
+}
+.footerNavLinks {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+}
+.footerPS {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footerSolutions{
+    margin-left: -30px;
+}
+.footerSolutionsLinkS , .footerSolutionsLinkP {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+.footerSolutionsLink  {
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+}
+.footerProducts {
+    margin-left: 40%;
+}
+.copyright {
+    background-color: #181963;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 960px) {
+    .footerLinks {
+        display: none;
+    }   
+    .contact {
+        width: 100%;
+    }
+    .footerLogo {
+        width: 150px;
+        margin-left: 0;
+    }
+    .smlogo {
+        width: 40px;
+    }
+    .copyright {
+        font-size: 16px;
+    }
+}

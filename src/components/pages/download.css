@@ -1,0 +1,137 @@
+.search {
+    display: flex;
+    width: 80%;
+    margin: 10%;
+}
+.spaceBtw{
+    width: 60%;
+}
+.searchBox {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+    line-height: 50px;
+    background: #eaeaea;
+    border-color: #eaeaea;
+}
+.searchBox::placeholder {
+    font-size: 15px;
+
+}
+.searchBtns {
+    width: 100px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #2ba6dc;
+    border: none;
+}
+.searchBtns:active {
+    background-color: #62bfe7;
+}
+    .filter {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #999;
+    }
+    
+    .filter ul {
+    display: flex;
+}
+
+.filter ul li {
+        font-size: 16px;
+        padding-bottom: 14px;
+        margin-bottom: -1px;
+        line-height: 22px;
+        width: 120px;
+        text-align: center;
+        margin-left: 200px;
+
+}
+.active {
+        color: #3d86c7;
+        border-bottom: 4px solid #3d86c7;
+        width: 120px;
+    }
+.filterBtn {
+     cursor: pointer;
+     font-size: 20px;
+     height: 40px;
+}
+.dHead {
+    margin-top: 40px;
+}
+@media (max-width: 960px) {
+    .search {
+        display: block;
+        width: 80%;
+        margin: 10%;
+    }
+    .search h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: Left;
+    }
+    .spaceBtw{
+        width: 0%;
+    }
+    .searchBox {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        justify-content: space-between;
+        line-height: 30px;
+        background: #eaeaea;
+        border-color: #eaeaea;
+    }
+    .searchBox::placeholder {
+        font-size: 15px;
+        
+    }
+    .searchBtns {
+        width: 100px;
+        height: 40px;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+        background-color: #2ba6dc;
+        border: none;
+    }
+    .searchBtns:active {
+        background-color: #62bfe7;
+    }
+        .filter {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid #999;
+        }
+        
+        .filter ul {
+        display: flex;
+    }
+    
+    .filter ul li {
+            font-size: 10px;
+            padding-bottom: 14px;
+            margin-bottom: -1px;
+            line-height: 12px;
+            width: 60px;
+            text-align: center;
+            margin-left: 30px;
+    
+    }
+    .active {
+            color: #3d86c7;
+            border-bottom: 4px solid #3d86c7;
+            width: 60px;
+        }
+    .filterBtn {
+         cursor: pointer;
+         font-size: 10px;
+         height: 20px;
+    }
+}

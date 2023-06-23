@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+.timelineCover {
+  display: flex;
+  margin-top: -30%;
+}
+.timelineHead {
+  margin-left: 10%;
+  margin-top: 22%;
+  width: 30%;
+  color: #fff;
+}
+.Imp {
+  color: #2ba6dc;
+}
+
+
+.timeline-container {
+  margin-top: 5%;
+  padding-top: 10%;
+  height: 350px;
+  overflow-y: auto;
+  color: #b6b7be;
+  width: 60%;
+}
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-content {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+.timeline-content h1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.timelineLine {
+  background-image: url('../resources/img/timeline-6.png');
+  background-size: cover;
+  width: 35px;
+  height: 100px;
+  margin-top: -35px;
+  padding-left: 0;
+  margin-right: 5px;
+}
+.timeline-container::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-content h2 {
+  font-size: 20px;
+}
+
+/* Wow.js animation classes */
+.animated {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Additional styling for animation */
+.timeline-item.wow.animated {
+  animation-duration: 1s;
+}
+
+.timeline-item.wow.fadeInUp.animated {
+  animation-name: fadeInUp;
+}
+
+@media  screen and (max-width:960px) {
+  .timelineCover {
+    display: none;
+  }
+}

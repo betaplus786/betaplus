@@ -1,0 +1,219 @@
+.headImg {
+    background-image: url(../../resources/img/city.jpg);
+    height: 450px;
+}
+
+.imgInfo {
+    color: #fff;
+    margin-top: -300px;
+    margin-left: 200px;
+    margin-bottom: 280px;
+}
+.imgInfo h1 {
+    font-size: 40px;
+}
+.imgInfo h3 {
+    font-size: 20px;
+}
+
+.companyIntro {
+    width: 82%;
+    padding-left: 15%;
+    margin-bottom: 50px;
+}
+.companyIntro h1 {
+    display: flex;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.imp {
+    margin-left: 5px;
+}
+
+.companyData {
+    font-size: 21px;
+    line-height: 4vh;
+    text-justify: auto;
+    margin-bottom: 50px;
+}
+
+.infoImg {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.imgClient {
+    color: #fff;
+    margin-top: -300px;
+    margin-left: 200px;
+    margin-bottom: 280px;
+}
+.imgClient h1 {
+    font-size: 60px;
+}
+.imgClient h3 {
+    font-size: 35px;
+}
+.contactForm {
+    display: flex;
+}
+
+.adressAU {
+    margin-left: 15%;
+    width: 40%;
+    text-align: left;
+    color: #333;
+}
+.adressAU h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    display: flex;
+}
+.adressAU h3 {
+    font-size: 25px;
+}
+.adressAU p {
+    width: 350px;
+    font-size: 20px;
+    color: #524f61;
+    margin-bottom: 5px;
+}
+.imp {
+    display: flex;
+    padding-right: 5px;
+    color: #2ba6dc;
+}
+
+.messageAU {
+    width: 60%;
+    margin-bottom: 100px;
+    padding-left: 0;
+    padding-right: 20%;
+}
+.messageAU h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+     width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+.nameAU, .phoneAU, .emailAU, .contentAU {
+    height: 60px;
+    width: 33%;
+    border: none;
+    border-bottom: 1px solid #6a7072;
+    border-radius: 0;
+    margin-left: 0;
+    flex-direction: row;
+  }
+  input::placeholder {
+    font-size: 20px;
+  }
+  textarea::placeholder {
+    font-size: 20px;
+  }
+  .contentAU {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    
+  }
+  .form-row button {
+    background: #2ba6dc;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;    
+
+  }
+  
+  .form-row button:hover {
+    background-color: white;
+    color: #2ba6dc;
+    border: 1px solid #2ba6dc;
+    overflow: hidden;
+  }
+  
+  /* Mobile */  
+
+  @media screen and (max-width: 960px) {
+    .headImg {
+        height: 200px;
+    }
+    .imgInfo, .imgClient {
+        color: #fff;
+        margin-top: -150px;
+        margin-left: 0%;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .imgClient h1 {
+        font-size: 30px;
+    }
+    .imgClient h3 {
+        font-size: 20px;
+    }
+
+    .companyIntro {
+        padding-left: 10%;
+    }
+
+  .companyIntro h1{
+    display: block;
+    font-size: 20px;
+}
+
+.companyData{
+  display: block;
+  font-size: 10px;
+  line-height: 2vh;
+  text-justify: newspaper;
+}
+.contactForm {
+    display: block;
+}
+
+.adressAU h2 {
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 125px;
+    display: flex;
+}
+.adressAU h3 , .adressAU p {
+    visibility: hidden;
+}
+
+.messageAU {
+    width: 100%;
+    padding-right: 0;
+    margin-top: -150px;
+}
+.nameAU , .phoneAU , .emailAU {
+    margin-left: 5px;
+    padding-top: 40px;
+    width: 100%;
+}
+.form-container {
+    width: 80%;
+}
+.form-row {
+    display: contents;
+}
+
+  textarea {
+    height: 70px;
+  }
+
+  }

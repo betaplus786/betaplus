@@ -1,0 +1,489 @@
+/* =====Home===== */
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+/* =====background===== */
+.bg {
+  background-image: url('../../resources/img/betabg.png');
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  /* margin-top: 250px; */
+}
+/* =====Product Series===== */
+.productSeries {
+    width: 80%;
+    margin: 10% 10%;
+}
+
+.headPS > h1 {
+    display: flex;
+  }
+  
+  .itemsPS {
+    display: flex;
+}
+.itemPS {
+    margin-top: 5%;
+    margin-left: 0%;
+    color: #000;
+    text-decoration: none;
+
+}
+.itemPS > img {
+    width: 300px;
+}
+.itemPS > h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.itemPS > p {
+    font-size: 35px;
+    text-align: center;
+}
+
+.itemPS:hover {
+    color: #2ba6dc;
+}
+.itemPS:hover img {
+    background-image: url(../../resources/img/parallelogram-300.png);
+}
+
+/* =====Solutions===== */
+  .options {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 10%;
+  }
+  
+  .option {
+    text-align: center;
+    font-size: 19px;
+    flex: 0 0 33.33%;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 4px solid #999;
+  }
+  .option.active {
+    width: 100%;
+  }
+  
+  
+  .content {
+    margin-top: -5%;
+    margin-bottom: 25%;
+    flex: 1;
+  }
+  
+  .slide {
+    height: 350px;
+    width: 80%;
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image img {
+    width: 500px;
+  }
+  
+  .text {
+    width: 60%;
+    flex: 1;
+  }
+
+  .text>h1{
+    color: #999;
+    margin-bottom: 10px;
+  }
+  .text>h2 {
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .text>p {
+    color: #555;
+    width: 80%;
+  }
+  .text>button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #2ba6dc;
+    color: #2ba6dc;    
+}
+.text>button:hover {
+    background-color: #2ba6dc;
+    color: #fff;
+}
+  
+  button {
+    margin-top: 10px;
+  }
+  /* =====Coperative Partners===== */
+  .CPHeader {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .CPBody {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .CPLine {
+    display: flex;
+  }
+  .partner {
+    width: 20%;
+    border: 2px solid #999;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .partner>img {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 97%;
+  }
+  /* =====Download===== */
+  .LPDownload {
+    width: 100%;
+    margin: 0;
+    height: 450px;
+    background-image: url('../../resources/img/blueworld-10.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #555;
+    background-position: center ;
+    text-align: center;
+  }
+  .LPDownload > h1 {
+    margin-top: 50px;
+
+  }
+  .LPSearch {
+    display: flex;
+    width: 80%;
+  }
+  
+  .LPSearchBar {
+    width: 500px;
+    height: 70px;
+    transform: skew(-20deg);
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    background-color: #fff;
+    color: #999;
+  }
+  .LPSearchBar::placeholder {
+    font-size: 20px;
+  }
+  
+  .LPButton {
+    transform: skew(-20deg);
+    padding: 5px 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 69px;
+    border: none;
+    background-color: #2ba6dc;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  /*  */
+  .downloadShortCut{
+    display: flex;
+}
+.shtcut {
+    margin-left: 13%;
+    margin-top: 5%;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+  }
+  .shtcut>p {
+    padding-top: 5px;
+  }
+  .brochure {
+    width: 30px;
+    height: 30px;
+  background-image: url('../../resources/img/brochure.png'); 
+  background-size: cover;
+  margin-right: 15px;
+}
+.datasheet {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../resources/img/datasheet.png'); 
+    background-size: cover;
+    margin-right: 15px;
+}
+.manual {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../resources/img/manual.png'); 
+    background-size: cover;
+    margin-right: 15px;
+}
+.certificate {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../resources/img/certificate.png'); 
+    background-size: cover;
+    margin-right: 15px;
+  }
+/* =========================Mobile========================================================= */
+@media screen and (max-width:960px) {
+  .bg { 
+    display: none;
+}
+/* =====Product Series===== */
+.productSeries {
+  width: 80%;
+  height: 100%;
+  margin: 10%;
+  text-align: center;
+  display: block;
+}
+
+.headPS > h1 {
+  display: flex;
+  margin-left: 60px;
+}
+
+.itemsPS {
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  margin: 0;
+}
+.itemPS {
+  text-decoration: none;
+  color: #000;
+  flex-basis: 40%;
+  margin-top: 5%;
+
+}
+.itemPS > img {
+  width: 140px;
+}
+.itemPS > h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.itemPS > p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.itemPS:hover {
+  color: #000;
+}
+.itemPS:hover img {
+  background-image: none;
+}
+
+/* =====Solutions===== */
+.options {
+  width: 100%;
+  padding-top: 200px;
+  flex-direction: row;
+  margin: 0;
+}
+
+.option {
+  text-align: center;
+  font-size: 15px;
+  flex: 0 0 33.33%;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 4px solid #999;
+}
+.option.active {
+  width: 100%;
+}
+.content {
+  margin-top: -5%;
+  margin-bottom: 25%;
+  flex: 1;
+}
+
+.slide {
+  height: 350px;
+  width: 100%;
+  margin:0;
+  display: block;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+  flex: 1;
+}
+
+.text>h1{
+  color: #999;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.text>h2 {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.text>p {
+  color: #555;
+  width: 100%;
+  font-size: 10px;
+}
+.text>button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #2ba6dc;
+  color: #2ba6dc;    
+  display: none;
+}
+.text>button:hover {
+  background-color: #2ba6dc;
+  color: #fff;
+}
+
+button {
+  margin-top: 10px;
+}
+/* =====Coperative Partners===== */
+.CPHeader {
+  display: none;
+  margin-top: 300px ;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+.CPBody {
+  width: 80%;
+  margin: 0 10%;
+}
+.CPLine {
+  display: flex;
+}
+.partner {
+  display: none;
+  width: 20%;
+  border: 2px solid #999;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.partner>img {
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 97%;
+}
+/* =====Download===== */
+.LPDownload {
+  width: 100%;
+  margin-top: 350px;
+  margin-bottom: 50px;
+  height: 140%;
+  background-image: url('../../resources/img/blueworld-10.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #555;
+  background-position: center ;
+  text-align: center;
+}
+.LPDownload > h1 {
+  margin-top: 25px;
+  font-size: 25px;
+}
+.LPDownload > h3 {
+  font-size: 15px;
+}
+.LPSearch {
+  display: flex;
+  width: 80%;
+}
+
+.LPSearchBar {
+  width: 80%;
+  height: 40px;
+  transform: skew(-20deg);
+  padding: 5px;
+  border: none;
+  font-size: 15px;
+  background-color: #fff;
+  color: #999;
+}
+.LPSearchBar::placeholder {
+  font-size: 20px;
+}
+
+.LPButton {
+  transform: skew(-20deg);
+  padding: 5px 10px;
+  margin-left: 10px;
+  width: 40%;
+  height: 40px;
+  border: none;
+  background-color: #2ba6dc;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*  */
+.downloadShortCut{
+  display: flex;
+  flex-wrap: wrap;
+}
+.shtcut {
+  margin-left: 13%;
+  margin-top: 5%;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  flex-basis: 30%;
+}
+.shtcut>p {
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.brochure {
+  width: 30px;
+  height: 30px;
+background-image: url('../../resources/img/brochure.png'); 
+background-size: cover;
+margin-right: 15px;
+}
+.datasheet {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../resources/img/datasheet.png'); 
+  background-size: cover;
+  margin-right: 15px;
+}
+.manual {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../resources/img/manual.png'); 
+  background-size: cover;
+  margin-right: 15px;
+}
+.certificate {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../resources/img/certificate.png'); 
+  background-size: cover;
+  margin-right: 15px;
+}
+}
