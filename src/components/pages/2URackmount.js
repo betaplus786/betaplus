@@ -1,7 +1,6 @@
 import React from 'react';
 import './productpage.css';
 import { Link, useParams } from 'react-router-dom';
-import DetailsThumb from '../DetailsThumb';
 import { scrollToSection } from './scrollToSection';
 
 class twoURackmount extends React.Component{
