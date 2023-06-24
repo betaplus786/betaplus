@@ -14,7 +14,7 @@
     font-size: 30px;
     margin-bottom: 0px;
 }
-h4 {
+.profileName {
     font-size: 25px;
     font-weight: 400;
     margin-top: -25px;
@@ -25,7 +25,7 @@ h4 {
     width: 650px;
     height: 320px;
     position: relative;
-    background: url(https://wallpaperaccess.com/full/3898677.jpg) 50% no-repeat;
+    background: linear-gradient(to bottom right,#2bada9, #176361,  #0f3f3d);
     background-size: 100% 100%;
     z-index: 11;
     left: 285px;
@@ -53,7 +53,7 @@ h4 {
 
 .profile-btn:hover {
     background-color: #fff;
-    color: #2ba6dc;
+    color: #176361;
 }
 
 .video {
@@ -87,7 +87,7 @@ h4 {
         margin-bottom: 0px;
         display: none;
     }
-    h4 {
+    .profileName {
         font-size: 20px;
         margin-top: 50;
         padding: 0px;
@@ -132,7 +132,7 @@ h4 {
     }
     
     .profile-btn:active {
-        color: #2ba6dc;
+        color: #176361;
     }
     
     .video {

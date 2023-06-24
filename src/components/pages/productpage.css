@@ -52,6 +52,7 @@
   .box p{
     line-height: 1.5;
     margin: 15px 0;
+    font-weight: lighter;
   }
   .thumb{
     width: 100%;
@@ -72,10 +73,10 @@
   }
   .thumb img.active{
     opacity: 1;
-    border: 1px solid #2ba6dc;
+    border: 1px solid #176361;
   }
   .btn{
-    background: #2ba6dc;
+    background: #176361;
     color: white;
     font-size: 20px;
     outline: none;
@@ -93,13 +94,13 @@
     margin-top: 15px;
   }
   .Links:hover {
-    color: #2ba6dc;
+    color: #176361;
     text-decoration: none;
   }
   .btn:hover  {
     background: #fff;
-    color: #2ba6dc;
-    border: 1px solid #2ba6dc;
+    color: #176361;
+    border: 1px solid #176361;
   }
   
   .function {

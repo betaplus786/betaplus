@@ -32,7 +32,7 @@
 .imp {
     display: flex;
     padding-right: 5px;
-    color: #2ba6dc;
+    color: #176361;
 }
 .marketsContainer {
     display: flex;
@@ -99,7 +99,7 @@
     border-radius: 4px;
   }
   .form-row button {
-    background-color: #2ba6dc;
+    background-color: #176361;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -112,8 +112,8 @@
   
   .form-row button:hover {
     background-color: white;
-    color: #2ba6dc;
-    border: 1px solid #2ba6dc;
+    color: #176361;
+    border: 1px solid #176361;
     overflow: hidden;
   }
   
@@ -158,7 +158,7 @@
     .imp {
         display: flex;
         padding-right: 5px;
-        color: #2ba6dc;
+        color: #176361;
     }
     .marketsContainer {
         display: block;

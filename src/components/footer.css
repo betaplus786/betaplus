@@ -6,12 +6,13 @@
     max-height: 600px;
     display: flex;
     padding: 5% 10%;
+    margin-top: 100px;
 }
 .contact {
     width: 30%;
 }
 .footerLogo {
-    width: 200px;
+    width: 150px;
 }
 .contactInfo {
     color: #fff;
@@ -63,13 +64,13 @@
     text-decoration: none;
     color: #fff;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 .footerProducts {
-    margin-left: 40%;
+    margin-left: 42%;
 }
 .copyright {
-    background-color: #181963;
+    background-color:  #176361;
     color: #fff;
     text-align: center;
     font-size: 19px;
