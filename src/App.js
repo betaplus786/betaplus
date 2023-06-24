@@ -11,7 +11,7 @@ import AboutUs from './components/pages/aboutUs';
 import AllInOne from './components/pages/allInOne';
 import HighVoltage from './components/pages/highVoltage';
 import Language from './components/pages/language';
-import TwoURackmount from './components/pages/2URackmount';
+// import TwoURackmount from './components/pages/2URackmount';
 import SingleProduct from './components/pages/singleproduct';
 import Solution from './components/pages/Solution';
 import SolarESSCS from './components/pages/SolarESSCS';
